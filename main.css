@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: rgb(244, 244, 244);
+}
+
+.container{
+    position: relative;
+    max-width: 1500px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.containerFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    background-color: rgb(255, 251, 0);
+    padding: 18px 0 18px 0;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+header li{
+    display: flex;
+    padding-left: 16px;
+    align-items: center;
+}
+
+header li p{
+    font-size:10px;
+    padding-left: 5px;
+}
+
+#username{
+    font-weight: bold;
+}
+
+header ul img{
+    max-height: 22px;
+}
+
+header  input{
+    text-align: left;
+    border: none;
+    border-radius: 7px;
+    width: 55%;
+    height: 36px;
+    padding: 10px;
+}
+
+header img{
+    max-height: 56px;
+}
+
+#departamentos{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.055) 0px 10px 10px;
+}
+
+#departamentos .container{
+    height: 30px;
+}
+
+#busca ul li, #cliente ul li{
+    padding: 0 6px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#anuncios{
+    margin: 10px auto 0 auto;
+}
+
+#anuncios img{
+    max-height: 400px;
+    object-fit: cover;
+}
+
+section{
+    padding: 0 0 20px 0;
+}
+
+#listaDeProdutos{
+    padding: 10px;
+}
+
+#listaDeProdutos li{
+    max-width: 19%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px rgba(65, 64, 64, 0.582);
+}
+
+#listaDeProdutos li img{
+    max-width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+
+li del{
+    color: #5c5c5c;
+}
+
+#listaDeProdutos li div p{
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(13, 45, 151);
+}
+
+.preco{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.precoParcelado{
+    font-size: 14px;
+}
+
+footer{
+    background-color: rgb(30, 69, 197);
+}
+
+footer button{
+    width: 100%;
+    padding: 7px 0;
+    background-color: rgb(53, 84, 185);
+    color: #fff;
+    border: none;
+}
+
+footer{
+    color: #fff;
+}
+
+.rodape{
+    max-width: 33%;
+    padding: 10px 50px;
+    height: 200px;
+}
+
+.rodape a{
+    color: #ccc8c8;
+}
+
+.rodape ul li{
+    padding-right: 15px;
+}
+
+.rodape ul li img{
+    max-width: 38px;
+}
+
+footer .container{
+    display: flex;
+    justify-content: center;
+}
