@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ponto das Construções</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="pageContainer">
+        <div id="contentWrap">
+            <header>
+                <div class="container containerFlex">
+                    <img src="images/logo.png" alt="Ponto das Construções" id="logo">
+                    <input type="text" placeholder="Busque seu produto">
+                    <ul>
+                        <li>
+                            <img src="images/blackuser.png" alt=""><p>Olá, <br><span id="username">Kauann</span></p>
+                        </li>
+                        <li>
+                            <img src="images/map-pointer.png" alt="">
+                        </li>
+                        <li>
+                            <img src="images/blackheart.png" alt="">
+                        </li>
+                        <li>
+                            <img src="images/blackcart.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <section id="departamentos">
+                <div class="container containerFlex">
+                    <div id="busca">
+                        <ul>
+                            <li><a href="/index.html">Madeira</a></li>
+                            <li><a href="#">Concreto</a></li>
+                            <li><a href="#">ferragens</a></li>
+                            <li><a href="#">ferramentas</a></li>
+                            <li><a href="#">Materiais Hidráulicos</a></li>
+                            <li><a href="#">Aluguel de Máquinas</a></li>
+                            <li><a href="#">Transporte de Carga</a></li>
+                        </ul>
+                    </div>
+                    <div id="cliente">
+                        <ul>
+                            <li><a href="#">Meus Pedidos</a></li>
+                            <li><a href="#">Atendimento</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="login">
+                <div class="container">
+                    <h2>Identificação</h2>
+                </div>
+                <div class="container containerFlex" id="identification">
+                    <div class="signIn">
+                        <h3>Já sou cliente</h3>
+                        <form action="">
+                            <label for="emailLogin">Email:</label>
+                            <input type="email" id="emailLogin" 
+                            name="emailLogin" class="formLogin">
+                            <label for="senhaLogin">Senha: </label>
+                            <input type="password" id="senhaLogin"  class="formLogin">
+                            <button type="submit"  class="formLogin">Entrar</button>
+                        </form>
+                    </div>
+                    <div id="spaceIdentification"></div>
+                    <div class="signUp">
+                        <h3>Cadastrar nova conta</h3>
+                        <form action="">
+                            <label for="cpfCadastro">CPF: </label>
+                            <input type="number" name="cpfCadastro" id="cpfCadastro"  class="formLogin">
+                            <label for="nomeCadastro">Nome Completo: </label>
+                            <input type="text" name="nomeCadastro" id="nomeCadastro"  class="formLogin">
+                            <label for="emailCadastro">Email: </label>
+                            <input type="email" name="emailCadastro" id="emailCadastro"  class="formLogin">
+                            <label for="senhaCadastro">Senha: </label>
+                            <input type="password" name="senhaCadastro" id="senhaCadastro"  class="formLogin">
+                            <button type="submit"  class="formLogin">Cadastrar</button>
+                        </form>
+                    </div>
+                </div>
+            </section>      
+        </div>
+        <footer>
+            <a href="#logo"><button>Voltar ao Início</button></a>
+            <div class="container" id="footer">
+                <div class="rodape">
+                    <h4>Departamentos</h4>
+                    <a href="">Madeira</a> <br>
+                    <a href="#">Concreto</a> <br>
+                    <a href="#">Ferrages</a> <br>
+                    <a href="#">Ferramentas</a> <br>
+                    <a href="#">Materiais Hidráulicos</a> <br>
+                    <a href="#">Aluguel de Máquinas</a> <br>
+                    <a href="#">Transporte de Carga</a> <br>
+                </div>
+                <div class="rodape">
+                    <h4>Ao cliente</h4>
+                    <a href="#">Sua conta</a> <br>
+                    <a href="#">Seus pedidos</a> <br>
+                    <a href="#">Frete e prazo de entrega</a> <br>
+                    <a href="#">Devoluções e reembolsos</a> <br>
+                    <a href="#">Ajuda</a> <br>
+                </div>
+                <div class="rodape">
+                    <h4>Nossas redes</h4>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="/images/sociais/facebook.png" alt="Nosso Facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="/images/sociais/instagram.png" alt="Nosso Instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="/images/sociais/youtube.png" alt="Nosso Youtube">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="/images/sociais/whatsapp-48.png" alt="Nosso Whatsapp">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container">
+                <p id="copyright">2024 &copy; Ponto das Construções - Todos os direitos reservados
+                </p>
+            </div>
+        </footer>
+    </div>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

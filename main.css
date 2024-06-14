@@ -10,6 +10,14 @@
 body{
     background-color: rgb(244, 244, 244);
 }
+#pageContainer{
+    position: relative;
+    min-height: 100vh;
+}
+
+#contentWrap{
+    padding-bottom: 262px;
+}
 
 .container{
     position: relative;
@@ -70,12 +78,8 @@ header img{
     box-shadow: rgba(0, 0, 0, 0.055) 0px 10px 10px;
 }
 
-#departamentos .container{
-    height: 30px;
-}
-
 #busca ul li, #cliente ul li{
-    padding: 0 6px;
+    padding: 8px 8px;
 }
 
 a{
@@ -92,8 +96,13 @@ a{
     object-fit: cover;
 }
 
+h2{
+    text-align: left;
+    padding-left: 25px;
+}
+
 section{
-    padding: 0 0 20px 0;
+    margin: 0 0 20px 0;
 }
 
 #listaDeProdutos{
@@ -138,6 +147,10 @@ li del{
 
 footer{
     background-color: rgb(30, 69, 197);
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
 }
 
 footer button{
@@ -146,10 +159,6 @@ footer button{
     background-color: rgb(53, 84, 185);
     color: #fff;
     border: none;
-}
-
-footer{
-    color: #fff;
 }
 
 .rodape{
@@ -171,6 +180,51 @@ footer{
 }
 
 footer .container{
+    display: flex;
+    justify-content: center;
+}
+
+#login h2{
+    color: rgb(53, 84, 185);
+}
+
+.signIn, .signUp{
+    height: 360px;
+    margin: 0 auto;
+}
+
+.formLogin{
+    width: 320px;
+    padding: 8px;
+    margin: 1px 0 8px 0;
+    display: block;
+    border: 1px solid #ccc8c8;
+    border-radius: 6px;
+}
+
+button.formLogin{
+    background-color: rgb(30, 69, 197);
+    color: #fff;
+    margin-top: 15px;
+    font-weight: bold;
+    border: none;
+}
+
+#copyright{
+    padding-bottom: 10px;
+}
+
+.signIn label, .signUp label{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.signIn form, .signUp form{
+    margin-top: 20px;
+}
+
+#identification{
+    margin: 30px auto;
     display: flex;
     justify-content: center;
 }
